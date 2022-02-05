@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Decodificador | HTML CSS JavaScript</title>
+</head>
+<body>        
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="https://github.com/joaovictor333"  target="_blank">
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-799200217/"  target="_blank">
+                    Linkedin
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/victo_217/" target="_blank">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="content">
+           <h1>Código Secreto</h1>
+           <h2>Digite o seu Texto!</h2>
+
+           <textarea cols="30" id="textarea1" placeholder="Apenas em minúsculas"></textarea><br>
+           <button onclick="Criptografia()"  id="cripto">Criptografar</button>
+           <button onclick="Descriptografia()" id="descripto">Descriptografar</button>
+            
+           <h2 style="margin-top: 14px;">Mensagens Criptografadas é Descriptografadas</h2>
+           
+           <textarea cols="30"  id="textarea2" placeholder="Resultado"></textarea><br>
+           <button onclick="CopiarTexto()" id="Copiar">Copiar</button>
+       </div>
+    </main>
+
+    <footer> 
+        <p>Code by &copy;João Victor Oliveira</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
